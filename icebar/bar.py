@@ -86,7 +86,6 @@ def create_window():
 	return bg, fg
 
 def main():
-	print("icebar!")
 	bg, fg = create_window()
 	bg_box = Gtk.Box(name="bg", visible=True)
 	bg.add(bg_box)
